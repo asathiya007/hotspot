@@ -1,0 +1,17 @@
+.Tilt {
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+#title-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1040px) {
+    .Tilt {
+        visibility: hidden;
+    }
+}
