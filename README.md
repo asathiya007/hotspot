@@ -1,6 +1,6 @@
-This web app uses AI and computer vision to detect faces in photos that the user can submit via URL. Data such as user's name, email, number of entries etc. are stored in a database. The code in this repo is for the back-end. https://hawkeye-asathiya.herokuapp.com/
+This repo contains the code for the React user interface for the Hotspot web application. See the API repo for more information on this project: https://github.com/asathiya007/hotspot-api
 
-Register or log in with ['john.doe@gmail.com', 'johndoe'] to give it a try!
+Check out the deployed product here: https://hotspot-asathiya.herokuapp.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
