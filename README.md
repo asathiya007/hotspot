@@ -1,6 +1,8 @@
-This repo contains the code for the React user interface for the Hotspot web application. See the API repo for more information on this project: https://github.com/asathiya007/hotspot-api
+HotSpot uses computer vision to detect wildfires in aerial images captured by planes, drones, satellites, etc. Check out the completed product here: https://hotspot-asathiya.herokuapp.com/
 
-Check out the deployed product here: https://hotspot-asathiya.herokuapp.com/
+The repo containing the code for the the PyTorch neural network used for detecting wildfires from aerial images (from drones, planes, satellites, etc.) and the Flask API that exposes this network can be found here: https://github.com/asathiya007/hotspot-api
+
+The repo containing the React user interface code can be found here: https://github.com/asathiya007/hotspot
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
