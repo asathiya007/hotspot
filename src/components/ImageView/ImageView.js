@@ -1,7 +1,7 @@
 import React from "react";
-import "./FireRecognition.css";
+import "./ImageView.css";
 
-const FireRecognition = ({imageUrl, error}) => {
+const ImageView = ({imageUrl, error}) => {
     if (!imageUrl || imageUrl === "" || error) {
         return <div></div>; 
     }
@@ -15,4 +15,4 @@ const FireRecognition = ({imageUrl, error}) => {
     );
 };
 
-export default FireRecognition; 
+export default ImageView; 

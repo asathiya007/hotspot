@@ -4,7 +4,7 @@ import Particles from 'react-particles-js';
 import Logo from "./components/Logo/Logo";
 import Result from "./components/Result/Result";
 import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
-import FireRecognition from "./components/FireRecognition/FireRecognition";
+import ImageView from "./components/ImageView/ImageView";
 
 class App extends React.Component {
   constructor() {
@@ -61,7 +61,7 @@ class App extends React.Component {
               }
             }
           }} />
-        <div className="mt5">
+        <div className="mv5">
           <Logo />
           <ImageLinkForm onPictureSubmit={this.onPictureSubmit}/>
           <Result 
@@ -70,7 +70,7 @@ class App extends React.Component {
             error={this.state.error}
             imageUrl={this.state.imageUrl}
             />
-          <FireRecognition 
+          <ImageView 
             imageUrl={this.state.imageUrl} 
             error={this.state.error}
             />
