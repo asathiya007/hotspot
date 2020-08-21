@@ -70,7 +70,10 @@ class App extends React.Component {
             error={this.state.error}
             imageUrl={this.state.imageUrl}
             />
-          <FireRecognition imageUrl={this.state.imageUrl}/>
+          <FireRecognition 
+            imageUrl={this.state.imageUrl} 
+            error={this.state.error}
+            />
         </div>
       </div>
     );
