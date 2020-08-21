@@ -2,7 +2,7 @@ import React from "react";
 import "./FireRecognition.css";
 
 const FireRecognition = ({imageUrl}) => {
-    if (!imageUrl) {
+    if (!imageUrl || imageUrl === "") {
         return <div></div>; 
     }
 
