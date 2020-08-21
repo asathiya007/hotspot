@@ -2,6 +2,10 @@ import React from "react";
 import "./FireRecognition.css";
 
 const FireRecognition = ({imageUrl}) => {
+    if (!imageUrl) {
+        return <div></div>; 
+    }
+
     return (
         <div className="center pa1">
             <div className="absolute mb4">

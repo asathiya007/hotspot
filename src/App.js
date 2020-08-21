@@ -12,7 +12,8 @@ class App extends React.Component {
     this.state = {
       probability: null,
       classification: null,
-      imageUrl: ""
+      imageUrl: "",
+      error: null,
     }
   }
 
@@ -28,7 +29,11 @@ class App extends React.Component {
     })
       .then(res => res.json())
       .then(data => {
-        this.setState({imageUrl, probability: data.confidence, classification: data.classification});
+        this.setState({imageUrl, 
+          probability: data.confidence, 
+          classification: data.classification, 
+          error: data.error
+        });
       }); 
   }
 
@@ -59,7 +64,12 @@ class App extends React.Component {
         <div className="mt5">
           <Logo />
           <ImageLinkForm onPictureSubmit={this.onPictureSubmit}/>
-          <Result probability={this.state.probability} classification={this.state.classification} />
+          <Result 
+            probability={this.state.probability} 
+            classification={this.state.classification} 
+            error={this.state.error}
+            imageUrl={this.state.imageUrl}
+            />
           <FireRecognition imageUrl={this.state.imageUrl}/>
         </div>
       </div>
