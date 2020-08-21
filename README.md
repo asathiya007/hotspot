@@ -1,6 +1,8 @@
-This web app uses AI and computer vision to detect faces in photos that the user can submit via URL. Data such as user's name, email, number of entries etc. are stored in a database. The code in this repo is for the back-end. https://hawkeye-asathiya.herokuapp.com/
+HotSpot uses computer vision to detect wildfires in aerial images captured by planes, drones, satellites, etc. Check out the completed product here: https://hotspot-asathiya.herokuapp.com/
 
-Register or log in with ['john.doe@gmail.com', 'johndoe'] to give it a try!
+The repo containing the code for the the PyTorch neural network used for detecting wildfires from aerial images (from drones, planes, satellites, etc.) and the Flask API that exposes this network can be found here: https://github.com/asathiya007/hotspot-api
+
+The repo containing the React user interface code can be found here: https://github.com/asathiya007/hotspot
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
