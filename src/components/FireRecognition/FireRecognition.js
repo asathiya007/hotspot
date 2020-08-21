@@ -1,8 +1,8 @@
 import React from "react";
 import "./FireRecognition.css";
 
-const FireRecognition = ({imageUrl}) => {
-    if (!imageUrl || imageUrl === "") {
+const FireRecognition = ({imageUrl, error}) => {
+    if (!imageUrl || imageUrl === "" || error) {
         return <div></div>; 
     }
 
