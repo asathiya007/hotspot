@@ -61,7 +61,7 @@ class App extends React.Component {
               }
             }
           }} />
-        <div className="mt5 mb6">
+        <div className="mv5">
           <Logo />
           <ImageLinkForm onPictureSubmit={this.onPictureSubmit}/>
           <Result 
