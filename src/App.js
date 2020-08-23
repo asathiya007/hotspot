@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import Particles from 'react-particles-js';
-import Logo from "./components/Logo/Logo";
+import Title from "./components/Title/Title";
 import Result from "./components/Result/Result";
 import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
 import ImageView from "./components/ImageView/ImageView";
@@ -40,29 +39,22 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Particles className="particles"
-          params={{
-            particles: {
-              number: {
-                value: 80,
-                density: {
-                  enable: true,
-                  value_area: 800
-                }
-              },
-              size: {
-                value: 3
-              },
-              line_linked: {
-                width: 3
-              },
-              move: {
-                speed: 12
-              }
-            }
-          }} />
+        <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+        </div >
         <div className="mv5">
-          <Logo />
+          <Title />
           <ImageLinkForm onPictureSubmit={this.onPictureSubmit}/>
           <Result 
             probability={this.state.probability} 
