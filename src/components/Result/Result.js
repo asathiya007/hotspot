@@ -25,14 +25,14 @@ const Result = ({probability, classification, error, imageUrl}) => {
     if (classification === "fire") {
         return (
             <div className="flex justify-center">
-                <p className="f2 white bg-red br3" style={{width: "300px"}}>{(probability * 100).toFixed(2)}% {classification}</p>
+                <p className="f2 white bg-red br3" style={{width: "300px"}}>{Math.min((probability * 100).toFixed(2), 99.99)}% {classification}</p>
             </div>
         );
     }
 
     return (
         <div className="flex justify-center">
-            <p className="f2 white bg-green br3" style={{width: "320px"}}>{(probability * 100).toFixed(2)}% {classification}</p>
+            <p className="f2 white bg-green br3" style={{width: "320px"}}>{Math.min((probability * 100).toFixed(2), 99.99)}% {classification}</p>
         </div>
     );
 };
