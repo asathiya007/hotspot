@@ -6,9 +6,9 @@ Wildfires are often noticed by humans after they have gotten too large. By detec
 
 Check out the completed product here: https://hotspot-asathiya.herokuapp.com/. Enjoy! 
 
-The repo containing the code for the the PyTorch neural network used for detecting wildfires from aerial images (from drones, planes, satellites, etc.) and the Flask API that exposes this network can be found here: https://github.com/asathiya007/hotspot-api
+The repo containing the code for the the PyTorch neural network used for detecting wildfires from aerial images (from drones, planes, satellites, etc.) and the Flask API that exposes this network can be found here: https://github.com/asathiya007/hotspot-api.
 
-The repo containing the React user interface code can be found here: https://github.com/asathiya007/hotspot
+The repo containing the React user interface code can be found here: https://github.com/asathiya007/hotspot.
 
 ### React Stuff
 
