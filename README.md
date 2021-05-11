@@ -1,4 +1,4 @@
-### HotSpot
+# HotSpot
 
 HotSpot is an artificial intelligence tool that uses computer vision to detect wildfires in aerial images captured by planes, drones, satellites, etc. This was inspired by California's wildfire crisis in August 2020. 
 
@@ -10,7 +10,7 @@ The repo containing the code for the the PyTorch neural network used for detecti
 
 The repo containing the React user interface code can be found here: https://github.com/asathiya007/hotspot.
 
-### React Stuff
+# React Stuff
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
